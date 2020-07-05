@@ -55,4 +55,4 @@ if __name__ == '__main__':
     movie_id = get_movie_id(movie_name)
     print("{} is the movie id.".format(movie_id))
     list_cast = get_cast_list(movie_id)
-    print("Cast: {}".format(', '.join(list_cast)))
+    print("Cast : {}".format(', '.join(list_cast)))
